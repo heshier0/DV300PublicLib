@@ -180,7 +180,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--host=arm' '--prefix=/mnt/g/workspace/plugins/libcurl' '--with-ssl=/mnt/g/workspace/plugins/openssl' '--enable-http' '--enable-mqtt' '--enable-ipv6' '--enable-rtsp' '--enable-file' 'host_alias=arm' 'CC=/opt/hisi-linux/x86-arm/arm-himix200-linux/bin/arm-himix200-linux-gcc-6.3.0 --sysroot=/opt/hisi-linux/x86-arm/arm-himix200-linux/target' 'CFLAGS=-DLINUX -Wno-multichar -fPIC -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS=-DLINUX -Wno-multichar -fPIC -fexceptions -fpermissive -w -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer'"
+        echo " '--host=arm' '--prefix=/mnt/g/workspace/plugins/libcurl' '--with-ssl=/mnt/g/workspace/plugins/openssl' '--enable-debug' '--enable-curldebug' '--enable-http' '--enable-mqtt' '--enable-ipv6' '--enable-rtsp' '--enable-file' 'host_alias=arm' 'CC=/opt/hisi-linux/x86-arm/arm-himix200-linux/bin/arm-himix200-linux-gcc-6.3.0 --sysroot=/opt/hisi-linux/x86-arm/arm-himix200-linux/target' 'CFLAGS=-Wno-multichar -fPIC -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS=-Wno-multichar -fPIC -fexceptions -fpermissive -w -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer'"
         ;;
 
     *)
